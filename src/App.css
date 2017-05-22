@@ -10,14 +10,14 @@
 }
 
 body {
+  padding-top: 5rem !important;
   padding: 2.5rem; /* 40/16 */
 
  }
 .container {
-  width: 600px;
+  width: 800px;
   margin: auto;
   color:#222222;
-  padding: 20px;
   text-align: center;
 }
 

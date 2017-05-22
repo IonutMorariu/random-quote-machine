@@ -40,7 +40,7 @@ componentWillMount (){
  })
  }
  postQuote(){
-   window.open(`https://twitter.com/intent/tweet?text="${this.state.quoteText}%20"%20${this.state.author}&hashtags=quote`)
+   window.open(`https://twitter.com/intent/tweet?text="${this.state.quoteText}"%20${this.state.author}&hashtags=quote`)
  }
 
 
@@ -49,7 +49,7 @@ componentWillMount (){
       <div className="App container">
         <Quote quoteText = {this.state.quoteText} author = {this.state.author} componentClassName = "QuoteClass" quoteClassName ="QuoteText" authorClassName = "author" />
         <Buttons  loadNewQuote = {this.loadNewQuote} postQuote = {this.postQuote} quoteButtonClass = " btn btn-green" tweetButtonClass = "btn btn-blue"/>
-        
+
       </div>
     );
   }
