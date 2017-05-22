@@ -1,0 +1,88 @@
+.App {
+  text-align: center;
+
+}
+
+.QuoteClass {
+  font-family: 'Helvetica-Neue', sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+body {
+  padding: 2.5rem; /* 40/16 */
+
+ }
+.container {
+  width: 600px;
+  margin: auto;
+  color:#222222;
+  padding: 20px;
+  text-align: center;
+}
+
+.container h1{
+  margin: 0;
+  padding: 20px;
+  font-size: 3rem;
+  position: relative;
+}
+
+.container .btn {
+  position: relative;
+  border:0;
+  padding: 15px;
+  margin: 20px;
+  width: 35%;
+  font-size: 1.5rem;
+  outline:none;
+  color:#FFF;
+  font-weight: bold;
+  border-radius: 3px;
+}
+
+.container .btn:active{
+  box-shadow: none;
+  top:5px;
+  margin-bottom: 0px;
+}
+
+.btn.btn-blue {
+  background-color: #2196F3;
+  box-shadow: 0px 5px 0px 0px #1565C0;
+}
+.btn.btn-blue:hover{
+  background-color: #42A5F5;
+}
+.btn.btn-blue:active{
+  background-color:#1565C0;
+
+}
+
+.btn.btn-green {
+  background-color: #4CAF50;
+  box-shadow: 0px 5px 0px 0px #2E7D32;
+}
+.btn.btn-green:hover{
+  background-color: #66BB6A;
+}
+.btn.btn-green:active{
+  background-color: #2E7D32;
+}
+
+.btn.btn-purple{
+  background-color: #673AB7;
+  box-shadow: 0px 5px 0px 0px #4527A0;
+}
+.btn.btn-purple:hover{
+  background-color: #7E57C2;
+}
+
+.btn.btn-purple:active{
+  background-color: #4527A0;
+}
+
+.author {
+  font-weight: lighter !important;
+  font-style: italic;
+}
